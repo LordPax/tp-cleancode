@@ -10,6 +10,10 @@ type Figure struct {
 var figures = []Figure{
 	{"Brelan", 28},
 	{"Carre", 35},
+	{"Full", 30},
+	{"Grande Suite", 40},
+	{"Yams", 50},
+	{"Chance", 0},
 }
 
 func ParseDice(dices []int) []int {
